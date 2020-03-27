@@ -1,0 +1,57 @@
+/*selector {
+	property: value;
+}*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(flo.jpg);
+	background-size: cover;
+}
+
+p {
+	color: #2D4671;
+	text-align: center;
+	border: 2px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+
+p {
+	color: pink;
+	line-height: 20px;
+	font-style: italic;
+	font-size: 150%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 1px solid green;
+}
+
+.active {
+	color: black;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.1);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.1);
+}
